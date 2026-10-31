@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Radar captures, logs, and decoded data
+*.bin
+dataset/raw/
+dataset/**/*.txt
+dataset/**/*.csv
+*.npy
+*.npz
+results/decoded/
+
+# Generated results
+results/**/*.csv
+results/**/*.png
+
+# Models and environments
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.pth
+venv/
+.venv/
+env/
+ENV/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
