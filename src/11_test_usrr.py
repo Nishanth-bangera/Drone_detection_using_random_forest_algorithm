@@ -2,8 +2,6 @@ import numpy as np
 import joblib
 
 from pathlib import Path
-
-
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
